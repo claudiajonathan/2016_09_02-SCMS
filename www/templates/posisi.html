@@ -1,0 +1,9 @@
+<ion-view name="posisi" view-title="POSISI">
+	<ion-content scroll="false">
+	<map on-create="mapCreated(map)" id="map"></map>
+	</ion-content>
+	<ion-footer-bar class="bar-balanced">
+      <!-- <a ng-click="centerOnMe()" class="button button-icon icon ion-navigate"></a> -->
+      <button class="button button-icon icon ion-navigate" id="direksi" onClick="calculateAndDisplayRoute()"></button>
+    </ion-footer-bar>
+</ion-view>

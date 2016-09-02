@@ -1,0 +1,18 @@
+<ion-view name="kec" view-title="KECEPATAN">
+	<ion-content scroll="false" style="padding-top:0.5cm" class="center">
+	<div class="item item-input-inset">
+		<div style="padding-right: 10px"></div>
+			<label class="item-input-wrapper">
+			<input type="text" maxlength="3" placeholder="MASUKKAN LIMIT">
+		</label>
+				<div style="padding-left: 10px">KM/JAM</div>
+		<!-- </label> -->
+		<button class="button button-small">
+				OK
+	</button>
+	</div>
+	<div style="line-height:120%; padding-top: 10px">KECEPATAN KENDARAAN SAAT INI</div></br>
+	<div style="font-size: 500%; line-height:50%">{{(users.output.attribute.alkohol)||0}}</div>
+	<div style="line-height:300%">KM/JAM</div>
+	</ion-content>
+</ion-view>
